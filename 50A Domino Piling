@@ -1,0 +1,16 @@
+import java.util.*;
+public class wordsWayToLong { 
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner sc = new Scanner(System.in);
+        int row = sc.nextInt(); //row input
+        int col = sc.nextInt(); //column input
+        
+        int totalSquares = row*col;
+        
+        System.out.println(totalSquares/2); //number of dominos we can place in any given matrix - each domino takes up 2*1 squares of the matrix
+
+	}
+
+}
